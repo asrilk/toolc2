@@ -1,0 +1,26 @@
+﻿Build started 2025/7/20 21:22:46.
+     1>Project "D:\paidone\todesk\主插件\shellcode\shellcode\shellcode.vcxproj" on node 3 (build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>InitializeBuildStatus:
+         Creating "x64\Release\执行代码.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /O1 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /MD /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ShellCode_main.cpp
+         ShellCode_main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\x64\Release\执行代码.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\执行代码.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\paidone\todesk\主插件\x64\Release\执行代码.pdb" /MAP /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\x64\Release\执行代码.lib" /MACHINE:X64 x64\Release\ShellCode_main.obj
+         Generating code
+         Finished generating code
+         shellcode.vcxproj -> D:\paidone\todesk\主插件\x64\Release\执行代码.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\paidone\todesk\主插件\x64\Release\执行代码.exe;#1" /manifest "x64\Release\执行代码.exe.intermediate.manifest"
+       PostBuildEvent:
+         D:\paidone\todesk\主插件\x64\Release\执行代码.exe
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\执行代码.unsuccessfulbuild".
+         Touching "x64\Release\执行代码.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\shellcode\shellcode\shellcode.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:49.27
