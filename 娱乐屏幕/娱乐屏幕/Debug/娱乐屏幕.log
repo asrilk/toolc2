@@ -1,0 +1,101 @@
+﻿Build started 2025/7/20 21:17:23.
+     1>Project "D:\paidone\todesk\主插件\娱乐屏幕\娱乐屏幕\娱乐屏幕.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\娱乐屏幕.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"J:\window\Quick\主插件\娱乐屏幕\娱乐屏幕" /I..\..\HPSocket\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HPSocket\Buffer.cpp ..\..\HPSocket\BufferPool.cpp ..\..\HPSocket\ikcp.cpp ..\..\HPSocket\Manager.cpp ..\..\HPSocket\RWLock.cpp ..\..\HPSocket\SocketHelper.cpp ..\..\HPSocket\stdafx.cpp ..\..\HPSocket\SysHelper.cpp ..\..\HPSocket\TcpSocket.cpp ..\..\HPSocket\UdpSocket.cpp ..\..\HPSocket\WaitFor.cpp Capture.cpp CaptureCommon.cpp pkt_queue.cpp H264ScreenManager.cpp "娱乐屏幕.cpp" MemoryModule.cpp
+         MemoryModule.cpp
+         娱乐屏幕.cpp
+         H264ScreenManager.cpp
+         pkt_queue.cpp
+         CaptureCommon.cpp
+         Capture.cpp
+         WaitFor.cpp
+         UdpSocket.cpp
+         TcpSocket.cpp
+         SysHelper.cpp
+         stdafx.cpp
+         SocketHelper.cpp
+         RWLock.cpp
+         Manager.cpp
+         ikcp.cpp
+         BufferPool.cpp
+         Buffer.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\娱乐屏幕.dll.embed.manifest.res" "Debug\娱乐屏幕_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\娱乐屏幕.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.lib" /MACHINE:X86 /DLL "Debug\娱乐屏幕.dll.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\Capture.obj
+         Debug\CaptureCommon.obj
+         Debug\pkt_queue.obj
+         Debug\H264ScreenManager.obj
+         "Debug\娱乐屏幕.obj"
+         Debug\MemoryModule.obj
+            Creating library D:\paidone\todesk\主插件\Debug\娱乐屏幕.lib and object D:\paidone\todesk\主插件\Debug\娱乐屏幕.exp
+     1>LINK : warning LNK4232: name 娱乐屏幕.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+     1>deyuv_32.lib(convert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(convert.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(cpu_id.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(cpu_id.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(planar_functions.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(planar_functions.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_any.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_any.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_win.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_win.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_any.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_any.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_win.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_win.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         Deleting file "Debug\娱乐屏幕.dll.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\娱乐屏幕.dll.embed.manifest" /manifest "Debug\娱乐屏幕.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\娱乐屏幕.dll.embed.manifest.res" "Debug\娱乐屏幕_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\娱乐屏幕.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\娱乐屏幕.lib" /MACHINE:X86 /DLL "Debug\娱乐屏幕.dll.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\Capture.obj
+         Debug\CaptureCommon.obj
+         Debug\pkt_queue.obj
+         Debug\H264ScreenManager.obj
+         "Debug\娱乐屏幕.obj"
+         Debug\MemoryModule.obj
+            Creating library D:\paidone\todesk\主插件\Debug\娱乐屏幕.lib and object D:\paidone\todesk\主插件\Debug\娱乐屏幕.exp
+     1>LINK : warning LNK4232: name 娱乐屏幕.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+     1>deyuv_32.lib(convert.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(convert.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(cpu_id.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(cpu_id.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(planar_functions.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(planar_functions.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_any.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_any.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(row_win.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(row_win.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_any.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_any.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>deyuv_32.lib(scale_win.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'deyuv_32.lib(scale_win.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+         娱乐屏幕.vcxproj -> D:\paidone\todesk\主插件\Debug\娱乐屏幕.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\娱乐屏幕.unsuccessfulbuild".
+         Touching "Debug\娱乐屏幕.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\娱乐屏幕\娱乐屏幕\娱乐屏幕.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:54.89
