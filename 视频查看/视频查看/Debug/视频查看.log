@@ -1,0 +1,138 @@
+﻿Build started 2025/7/20 21:17:25.
+     1>Project "D:\paidone\todesk\主插件\视频查看\视频查看\视频查看.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\视频查看.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\HPSocket\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HPSocket\Buffer.cpp ..\..\HPSocket\BufferPool.cpp ..\..\HPSocket\ikcp.cpp ..\..\HPSocket\Manager.cpp ..\..\HPSocket\RWLock.cpp ..\..\HPSocket\SocketHelper.cpp ..\..\HPSocket\stdafx.cpp ..\..\HPSocket\SysHelper.cpp ..\..\HPSocket\TcpSocket.cpp ..\..\HPSocket\UdpSocket.cpp ..\..\HPSocket\WaitFor.cpp CaptureVideo.cpp VideoManager.cpp XvidEnc.cpp "视频查看.cpp"
+         视频查看.cpp
+         XvidEnc.cpp
+         VideoManager.cpp
+         CaptureVideo.cpp
+         WaitFor.cpp
+         UdpSocket.cpp
+         TcpSocket.cpp
+         SysHelper.cpp
+         stdafx.cpp
+         SocketHelper.cpp
+         RWLock.cpp
+         Manager.cpp
+         ikcp.cpp
+         BufferPool.cpp
+         Buffer.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\视频查看.dll.embed.manifest.res" "Debug\视频查看_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\视频查看.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\视频查看.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\视频查看.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\视频查看.lib" /MACHINE:X86 /DLL "Debug\视频查看.dll.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\CaptureVideo.obj
+         Debug\VideoManager.obj
+         Debug\XvidEnc.obj
+         "Debug\视频查看.obj"
+            Creating library D:\paidone\todesk\主插件\Debug\视频查看.lib and object D:\paidone\todesk\主插件\Debug\视频查看.exp
+     1>LINK : warning LNK4232: name 视频查看.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+     1>xvid_32_d.lib(bitstream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(bitstream.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(cbp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(cbp.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbcoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbcoding.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(fdct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(fdct.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(idct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(idct.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(decoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(decoder.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(encoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(encoder.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(colorspace.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(colorspace.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(font.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(image.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(interpolate8x8.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(interpolate8x8.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(postprocessing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(postprocessing.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(qpel.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(qpel.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_bvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_bvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_gmc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_gmc.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_pvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_pvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_rd_based.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_rd_based.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_rd_based_bvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_rd_based_bvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(gmc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(gmc.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(motion_comp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(motion_comp.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(sad.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(sad.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(vop_type_decision.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(vop_type_decision.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbprediction.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbprediction.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_h263.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_h263.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_matrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_matrix.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_mpeg.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_mpeg.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(emms.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(emms.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbtransquant.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbtransquant.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mem_align.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mem_align.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mem_transfer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mem_transfer.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(xvid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(xvid.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\视频查看.dll.embed.manifest" /manifest "Debug\视频查看.dll.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\视频查看.dll.embed.manifest.res" "Debug\视频查看_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\视频查看.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\视频查看.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\视频查看.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\视频查看.lib" /MACHINE:X86 /DLL "Debug\视频查看.dll.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\CaptureVideo.obj
+         Debug\VideoManager.obj
+         Debug\XvidEnc.obj
+         "Debug\视频查看.obj"
+            Creating library D:\paidone\todesk\主插件\Debug\视频查看.lib and object D:\paidone\todesk\主插件\Debug\视频查看.exp
+     1>LINK : warning LNK4232: name 视频查看.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+     1>xvid_32_d.lib(bitstream.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(bitstream.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(cbp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(cbp.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbcoding.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbcoding.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(fdct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(fdct.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(idct.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(idct.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(decoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(decoder.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(encoder.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(encoder.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(colorspace.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(colorspace.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(font.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(font.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(image.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(image.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(interpolate8x8.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(interpolate8x8.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(postprocessing.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(postprocessing.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(qpel.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(qpel.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_bvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_bvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_common.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_common.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_gmc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_gmc.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_pvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_pvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_rd_based.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_rd_based.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(estimation_rd_based_bvop.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(estimation_rd_based_bvop.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(gmc.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(gmc.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(motion_comp.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(motion_comp.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(sad.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(sad.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(vop_type_decision.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(vop_type_decision.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbprediction.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbprediction.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_h263.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_h263.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_matrix.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_matrix.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(quant_mpeg.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(quant_mpeg.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(emms.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(emms.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mbtransquant.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mbtransquant.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mem_align.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mem_align.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(mem_transfer.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(mem_transfer.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+     1>xvid_32_d.lib(xvid.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'xvid_32_d.lib(xvid.obj)' or at 'D:\paidone\todesk\主插件\Debug\vc100.pdb'; linking object as if no debug info
+         视频查看.vcxproj -> D:\paidone\todesk\主插件\Debug\视频查看.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\视频查看.unsuccessfulbuild".
+         Touching "Debug\视频查看.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\视频查看\视频查看\视频查看.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:48.94
