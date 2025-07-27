@@ -1,0 +1,111 @@
+﻿Build started 2025/7/20 21:17:22.
+     1>Project "D:\paidone\todesk\主插件\驱动插件\驱动插件\驱动插件.vcxproj" on node 2 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "D:\paidone\todesk\主插件\Debug\".
+       InitializeBuildStatus:
+         Creating "Debug\驱动插件.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\HPSocket\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HPSocket\Buffer.cpp ..\..\HPSocket\BufferPool.cpp ..\..\HPSocket\ikcp.cpp ..\..\HPSocket\Manager.cpp ..\..\HPSocket\RWLock.cpp ..\..\HPSocket\SocketHelper.cpp ..\..\HPSocket\stdafx.cpp ..\..\HPSocket\SysHelper.cpp ..\..\HPSocket\TcpSocket.cpp ..\..\HPSocket\UdpSocket.cpp ..\..\HPSocket\WaitFor.cpp CloseNet.cpp HiddenLib.cpp KernrlManager.cpp "驱动插件.cpp"
+         驱动插件.cpp
+         KernrlManager.cpp
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(286): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(305): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(305): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(358): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(360): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\kernrlmanager.cpp(362): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+         HiddenLib.cpp
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(166): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(195): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(206): warning C4482: nonstandard extension used: enum 'HidRegRootTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(289): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(289): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(299): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(526): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(526): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(540): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(720): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(725): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(725): warning C4482: nonstandard extension used: enum 'HidPsInheritTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(762): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(767): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(767): warning C4482: nonstandard extension used: enum 'HidPsInheritTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(807): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(812): warning C4482: nonstandard extension used: enum 'HidActiveState' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(812): warning C4482: nonstandard extension used: enum 'HidPsInheritTypes' used in qualified name
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(833): warning C4101: 'status' : unreferenced local variable
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\hiddenlib.cpp(856): warning C4101: 'status' : unreferenced local variable
+         CloseNet.cpp
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(66): warning C4101: 'oldProtection2' : unreferenced local variable
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(66): warning C4101: 'oldProtection' : unreferenced local variable
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(77): warning C4101: 'oldProtection2' : unreferenced local variable
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(77): warning C4101: 'oldProtection' : unreferenced local variable
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(339): warning C4309: 'initializing' : truncation of constant value
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(339): warning C4309: 'initializing' : truncation of constant value
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(339): warning C4309: 'initializing' : truncation of constant value
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(339): warning C4309: 'initializing' : truncation of constant value
+     1>d:\paidone\todesk\主插件\驱动插件\驱动插件\closenet.cpp(339): warning C4309: 'initializing' : truncation of constant value
+         WaitFor.cpp
+         UdpSocket.cpp
+         TcpSocket.cpp
+         SysHelper.cpp
+         stdafx.cpp
+         SocketHelper.cpp
+         RWLock.cpp
+         Manager.cpp
+         ikcp.cpp
+         BufferPool.cpp
+         Buffer.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\驱动插件.exe.embed.manifest.res" "Debug\驱动插件_manifest.rc" 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\驱动插件.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\驱动插件.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\驱动插件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\驱动插件.lib" /MACHINE:X86 "Debug\驱动插件.exe.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\CloseNet.obj
+         Debug\HiddenLib.obj
+         Debug\KernrlManager.obj
+         "Debug\驱动插件.obj"
+            Creating library D:\paidone\todesk\主插件\Debug\驱动插件.lib and object D:\paidone\todesk\主插件\Debug\驱动插件.exp
+     1>LINK : warning LNK4232: name 驱动插件.exe contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\驱动插件.exe.embed.manifest" /manifest "Debug\驱动插件.exe.intermediate.manifest"
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\驱动插件.exe.embed.manifest.res" "Debug\驱动插件_manifest.rc" 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Debug\驱动插件.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\驱动插件.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主插件\Debug\驱动插件.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Debug\驱动插件.lib" /MACHINE:X86 "Debug\驱动插件.exe.embed.manifest.res"
+         Debug\Buffer.obj
+         Debug\BufferPool.obj
+         Debug\ikcp.obj
+         Debug\Manager.obj
+         Debug\RWLock.obj
+         Debug\SocketHelper.obj
+         Debug\stdafx.obj
+         Debug\SysHelper.obj
+         Debug\TcpSocket.obj
+         Debug\UdpSocket.obj
+         Debug\WaitFor.obj
+         Debug\CloseNet.obj
+         Debug\HiddenLib.obj
+         Debug\KernrlManager.obj
+         "Debug\驱动插件.obj"
+            Creating library D:\paidone\todesk\主插件\Debug\驱动插件.lib and object D:\paidone\todesk\主插件\Debug\驱动插件.exp
+     1>LINK : warning LNK4232: name 驱动插件.exe contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+         驱动插件.vcxproj -> D:\paidone\todesk\主插件\Debug\驱动插件.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\驱动插件.unsuccessfulbuild".
+         Touching "Debug\驱动插件.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\驱动插件\驱动插件\驱动插件.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:47.64
