@@ -1,0 +1,48 @@
+﻿Build started 2025/7/20 21:22:47.
+     1>Project "D:\paidone\todesk\主插件\系统管理\系统管理\系统管理.vcxproj" on node 9 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\系统管理.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I..\..\HPSocket\ /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\HPSocket\Buffer.cpp ..\..\HPSocket\BufferPool.cpp ..\..\HPSocket\ikcp.cpp ..\..\HPSocket\Manager.cpp ..\..\HPSocket\RWLock.cpp ..\..\HPSocket\SocketHelper.cpp ..\..\HPSocket\stdafx.cpp ..\..\HPSocket\SysHelper.cpp ..\..\HPSocket\TcpSocket.cpp ..\..\HPSocket\UdpSocket.cpp ..\..\HPSocket\WaitFor.cpp MachineManager.cpp "系统管理.cpp"
+         Buffer.cpp
+         BufferPool.cpp
+         ikcp.cpp
+         Manager.cpp
+         RWLock.cpp
+         SocketHelper.cpp
+         stdafx.cpp
+         SysHelper.cpp
+         TcpSocket.cpp
+         UdpSocket.cpp
+         WaitFor.cpp
+         MachineManager.cpp
+         系统管理.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\x64\Release\系统管理.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\系统管理.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\paidone\todesk\主插件\x64\Release\系统管理.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\x64\Release\系统管理.lib" /MACHINE:X64 /DLL x64\Release\Buffer.obj
+         x64\Release\BufferPool.obj
+         x64\Release\ikcp.obj
+         x64\Release\Manager.obj
+         x64\Release\RWLock.obj
+         x64\Release\SocketHelper.obj
+         x64\Release\stdafx.obj
+         x64\Release\SysHelper.obj
+         x64\Release\TcpSocket.obj
+         x64\Release\UdpSocket.obj
+         x64\Release\WaitFor.obj
+         x64\Release\MachineManager.obj
+         "x64\Release\系统管理.obj"
+            Creating library D:\paidone\todesk\主插件\x64\Release\系统管理.lib and object D:\paidone\todesk\主插件\x64\Release\系统管理.exp
+     1>LINK : warning LNK4232: name 系统管理.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+         Generating code
+         Finished generating code
+         系统管理.vcxproj -> D:\paidone\todesk\主插件\x64\Release\系统管理.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\paidone\todesk\主插件\x64\Release\系统管理.dll;#2" /manifest "x64\Release\系统管理.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\系统管理.unsuccessfulbuild".
+         Touching "x64\Release\系统管理.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\系统管理\系统管理\系统管理.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:00.78
