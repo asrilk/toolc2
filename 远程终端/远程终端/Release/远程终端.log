@@ -1,0 +1,50 @@
+﻿Build started 2025/7/20 21:20:22.
+     1>Project "D:\paidone\todesk\主插件\远程终端\远程终端\远程终端.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Release\远程终端.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Release\远程终端.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\..\HPSocket\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\HPSocket\Buffer.cpp ..\..\HPSocket\BufferPool.cpp ..\..\HPSocket\ikcp.cpp ..\..\HPSocket\Manager.cpp ..\..\HPSocket\RWLock.cpp ..\..\HPSocket\SocketHelper.cpp ..\..\HPSocket\stdafx.cpp ..\..\HPSocket\SysHelper.cpp ..\..\HPSocket\TcpSocket.cpp ..\..\HPSocket\UdpSocket.cpp ..\..\HPSocket\WaitFor.cpp ShellManager.cpp "远程终端.cpp"
+         Buffer.cpp
+         BufferPool.cpp
+         ikcp.cpp
+         Manager.cpp
+         RWLock.cpp
+         SocketHelper.cpp
+         stdafx.cpp
+         SysHelper.cpp
+         TcpSocket.cpp
+         UdpSocket.cpp
+         WaitFor.cpp
+         ShellManager.cpp
+         远程终端.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主插件\Release\远程终端.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\远程终端.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\paidone\todesk\主插件\Release\远程终端.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主插件\Release\远程终端.lib" /MACHINE:X86 /DLL Release\Buffer.obj
+         Release\BufferPool.obj
+         Release\ikcp.obj
+         Release\Manager.obj
+         Release\RWLock.obj
+         Release\SocketHelper.obj
+         Release\stdafx.obj
+         Release\SysHelper.obj
+         Release\TcpSocket.obj
+         Release\UdpSocket.obj
+         Release\WaitFor.obj
+         Release\ShellManager.obj
+         "Release\远程终端.obj"
+            Creating library D:\paidone\todesk\主插件\Release\远程终端.lib and object D:\paidone\todesk\主插件\Release\远程终端.exp
+     1>LINK : warning LNK4232: name 远程终端.dll contains non-ASCII characters, DLL may not load on system with ANSI codepage other than 936
+         Generating code
+         Finished generating code
+         远程终端.vcxproj -> D:\paidone\todesk\主插件\Release\远程终端.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\paidone\todesk\主插件\Release\远程终端.dll;#2" /manifest "Release\远程终端.dll.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\远程终端.unsuccessfulbuild".
+         Touching "Release\远程终端.lastbuildstate".
+     1>Done Building Project "D:\paidone\todesk\主插件\远程终端\远程终端\远程终端.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:01:07.66
